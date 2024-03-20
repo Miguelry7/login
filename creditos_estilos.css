@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    position:auto;
+    
+  }
+
+.formulario_creditos {
+  
+    background: #5acfec;
+    height: 100%;
+    width: 87%;
+    padding: 130px  90px;
+    text-align: center;
+    
+
+ }
+ .body{
+  width: 500px;
+  height: 600px;
+}
+ 
+
+
+ 

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+
+  #sidebar {
+    width: 250px;
+    background-color: #4e7dff;
+    color: white;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  
+
+  .nav-item {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(1, 0, 5);
+    cursor: pointer;
+    
+    
+  }
+
+  .nav-item:hover {
+    background-color:  #8ab3e7;
+    
+    
+  }
+
+  .card {
+    background-color: rgb(117, 119, 243);
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(62, 179, 214, 0.1);
+    width: 300px;
+    margin-bottom: 20px;
+    height: 200px;
+    float: left;
+    margin-left: 100px;
+    
+  }
+
+  .card h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+
+  .nav {
+    width: 87%;
+    height: 40px;
+    background-color: #2a3bce;
+    margin-left: 250px;
+    color: #3b2cc0;
+    text-align: right;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-top:5px;
+    cursor: pointer;
+    position: right;
+    text-align: left;
+  
+    
+  }
+  
+  .copy {
+    color:white;
+    margin-left: 2px;;
+  }
+  .card1{
+    background: rgb(235, 235, 190);
+  }
+  .card2{
+    background: rgb(190, 210, 235);
+  }
+  .card3{
+    background: rgb(245, 199, 186);
+  }
+  .card4{
+    background: rgb(154, 233, 196);
+  }
+  .img {
+    width: 40px;
+  }
+</style>
+<title>Dashboard</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="nav">
+<button><a href="index.php"> Cerrar secion</a></button>
+
+</nav>
+
+<div id="sidebar">
+  <div>
+    <img class="img" src="./icono.png" alt="">
+  </div>
+
+  <div class="nav-item">
+    <i class='fas fa-comment-dollar'></i>
+  <br><a  id="panel_de_usuario"> Panel de usuario</a></br>
+  
+</div>
+  <div class="nav-item">
+    <i class='fas fa-comment-dollar'></i>
+  <br> <a id="clientes">Clientes</a></br>
+  
+  </div>
+  <div class="nav-item">
+    <i class='fas fa-comment-dollar'></i>
+    <br> <a id="creditos">Creditos</a></br>
+   
+    
+  </div>
+  <div class="nav-item">
+    <i class='fas fa-comment-dollar'></i>
+    <br> <a id="cartera">Cartera</a></br> 
+  </div>
+  <div class="nav-item">
+    <i class='fas fa-comment-dollar'></i>
+    <br id="pagos">Pagos</br>
+  </div>
+</div>
+<div id="content">
+  <p>¡Bienvenido a CrediWeb!</p>
+
+</div>
+
+<script src="./js/index.js"></script>
+
+
+</body>
+</html>

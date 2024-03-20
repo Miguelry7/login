@@ -1,0 +1,19 @@
+
+ * {
+  margin: 0;
+  padding: 0;
+  position:auto;
+  
+}
+
+.formulario_panel_de_usuario {
+
+  background:#a3e1e6;
+  height: 100%;
+  width: 87%;
+  padding: 130px  90px;
+  text-align: center;
+  
+
+}
+
